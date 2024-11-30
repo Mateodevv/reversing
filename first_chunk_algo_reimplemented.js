@@ -89,7 +89,11 @@ function sort_string_list(get_string_table, _0x45c4dd) {
             string_table['push'](string_table['shift']());
         }
     }
+
 }
-console.log("HI")
-// I think those are the parameters for the function call above in line 1, what is this programming language -- second parameter is 368184
-sort_string_list(get_string_table, -0x1452a + -0x7ee11 + -0xed173 * -0x1);
+
+
+const a = sort_string_list(get_string_table, -0x1452a + -0x7ee11 + -0xed173 * -0x1)
+
+console.log(typeof a)
+
