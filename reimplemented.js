@@ -4,10 +4,12 @@ function get_string_table() {
     get_string_table = function() {
         return look_up_array;
     };
+    console.log("[get_string_table()] Initializing string_array")
     return get_string_table();
 }
 
 function Map_Index_To_String(index, _unused_param) {
+    
     const string_table = get_string_table();
     // redefinition of the function for obfusc. Not really any sense.
     return Map_Index_To_String = function(index_inner, _unused_param) {
@@ -40,11 +42,12 @@ function sort_string_list(get_string_table, _0x45c4dd) {
     function get_a_string_from_string_table_5(index, unused_param, unused_param, unused_param, unused_param) {
         return Map_Index_To_String(index - -'0x3b5', unused_param);
     }
-    
     // wtf is this shit - nvm this initializes the string table i think
+    console.log("[Method 1] Loading String_Array")
     const string_table = get_string_table();
 
     // infinity loop? - I think this is used to resort the string array 
+    console.log("[Method 1] Starting to sort the string_array")
     while (!![]) {
         try {
           
@@ -75,7 +78,8 @@ function sort_string_list(get_string_table, _0x45c4dd) {
             
             // if (magic_number === 368184) break;
             if (magic_number === _0x45c4dd) {
-              break;
+                console.log("[Method 1] Finished sorting the string_array")
+                break;
               
             }
             // removes first element from array and puts it on the end
@@ -89,9 +93,9 @@ function sort_string_list(get_string_table, _0x45c4dd) {
     }
 
 }
-
+console.log("[Main Flow] Strating Method1")
 sort_string_list(get_string_table, -0x1452a + -0x7ee11 + -0xed173 * -0x1)
-
+console.log("[Main Flow] Finished Method2")
 
 
 
@@ -134,32 +138,32 @@ const _0x2c3f3c = (function() {
 _0x1267e5 = _0x2c3f3c(this, function() {
     function _0x14c0a2(_0x43b7f5, _0x17ae72, _0xa29221, _0x21c8db, _0x4decab) {
         a = Map_Index_To_String(_0x21c8db - 0x248, _0x17ae72);
-        console.log(a)
+        console.log("[Method 2] String retrieved from strin_array: " + a)
         return a
     }
 
     function _0x39e27d(_0x7188ae, _0x252aa7, _0x22513e, _0x3fd17d, _0x489ea1) {
          
         a = Map_Index_To_String(_0x3fd17d - 0x18d, _0x252aa7);
-        console.log(a)
+        console.log("[Method 2] String retrieved from strin_array: " + a)
         return a 
     }
 
     function _0x189548(_0x5cb022, _0x14798c, _0x327304, _0x4a8776, _0x1a8ffc) {
         a = Map_Index_To_String(_0x327304 - -0x30f, _0x14798c);
-        console.log(a)
+        console.log("[Method 2] String retrieved from strin_array: " + a)
         return a 
     }
 
     function _0x1c55ca(_0x2906e4, _0xeef17e, _0x285287, _0x354541, _0x180eb7) {
         a = Map_Index_To_String(_0x180eb7 - '0x2e6', _0x354541);
-        console.log(a)
+        console.log("[Method 2] String retrieved from strin_array: " + a)
         return a
     }
 
     function _0x39ab8d(_0x523336, _0x402b9b, _0x2f8ecd, _0x4657c9, _0x3ec436) {
         a = Map_Index_To_String(_0x3ec436 - -0x10b, _0x2f8ecd);
-        console.log(a)
+        console.log("[Method 2] String retrieved from strin_array: " + a)
         return a
     }
     a = _0x1267e5[_0x39ab8d('0x229', '0x223', 0x2c2, '0x219', '0x230') + _0x14c0a2(0x516, 0x412, '0x34c', '0x43c', 0x4e3)]()[_0x1c55ca('0x570', '0x5f7', '0x59e', 0x612, 0x55d) + 'h'](_0x39ab8d('0x9a', 0x221, 0x211, '0x191', '0x178') + _0x189548('0x28', -'0x86', -'0xc8', -'0x133', -0x14d) + '+$')[_0x14c0a2(0x5fc, '0x66b', '0x641', '0x583', '0x512') + _0x39e27d(0x2d6, '0x442', '0x2b8', '0x381', 0x31e)]()[_0x39e27d(0x42c, 0x3c5, 0x4b4, '0x434', 0x48f) + _0x39ab8d(0x2b2, 0x1c3, '0x22e', 0x1f5, '0x1fc') + 'r'](_0x1267e5)[_0x1c55ca('0x56c', 0x56b, '0x4a1', 0x502, '0x55d') + 'h'](_0x14c0a2('0x56b', '0x594', 0x4aa, '0x4cb', 0x430) + _0x1c55ca(0x59c, '0x58e', '0x442', '0x4ea', 0x52d) + '+$');
@@ -167,9 +171,9 @@ _0x1267e5 = _0x2c3f3c(this, function() {
     return a
 });
 
-
+console.log("[Main Flow] Starting Method2")
 _0x1267e5();
-
+console.log("[Main Flow] Finished Method2")
 //
 
 // console.log(b)
