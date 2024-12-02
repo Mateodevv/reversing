@@ -95,7 +95,7 @@ function sort_string_list(get_string_table, _0x45c4dd) {
 }
 console.log("[Main Flow] Strating Method1")
 sort_string_list(get_string_table, -0x1452a + -0x7ee11 + -0xed173 * -0x1)
-console.log("[Main Flow] Finished Method2")
+console.log("[Main Flow] Finished Method1")
 
 
 
